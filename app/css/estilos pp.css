@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../images/discoteca2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 0, 140, 0.825);
+    border-radius: 10px;
+    margin-top: 200px;
+}
+
+.discotecas-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.discoteca {
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.discoteca h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.discoteca p {
+    font-size: 16px;
+}
+
+/* Otros estilos según sea necesario */
+
+/* Enlace para cerrar sesión */
+.container a {
+    color: white;
+    text-decoration: underline;
+}
+
+.container a:hover {
+    color: #ffcc00; /* Color de resaltado al pasar el ratón */
+}
